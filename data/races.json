@@ -1,0 +1,63 @@
+[
+  {
+    "date": null,
+    "track": "??",
+    "finalTrack": "??",
+    "status": "pending",
+    "id": "race2",
+    "round": 2,
+    "race1": { 
+        "riders": [
+          "luke",
+          "arron",
+          "rachel",
+          "michelle"
+        ]
+      },
+    "race2": {
+      "riders": [
+        "sam",
+        "dawn",
+        "james",
+        "tom"
+      ] 
+    },
+    "final": null
+  },
+  {
+  "date": "25th December 2025",
+  "track": "Hyrule Circuit",
+  "id": "race1",
+  "round": 1,
+  "finalTrack": "Moo Moo Meadows",
+  "status": "complete",
+  "race1": { 
+      "riders": [
+        "luke",
+        "arron",
+        "dawn",
+        "james"
+      ]
+    },
+  "race2": {
+    "riders": [
+      "rachel",
+      "michelle",
+      "sam",
+      "tom"
+    ] 
+  },
+  "final": { 
+    "riders": [
+      "rachel",
+      "luke",
+      "michelle",
+      "arron",
+      "sam",
+      "james",
+      "dawn",
+      "tom"
+    ]
+  }
+}
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Michelle",
+    "id": "michelle",
+    "avatarUrl": "/riders/cat-peach.jpg",
+    "teamName": "Clucking Crazy"
+  },
+  {
+    "name": "Sam",
+    "id": "sam",
+    "avatarUrl": "/riders/wario.jpg",
+    "teamName": "BadgerSport"
+  },
+  {
+    "name": "Dawn",
+    "id": "dawn",
+    "avatarUrl": "/riders/inkling-boy.png",
+    "teamName": "Flying Fox"
+  },
+  {
+    "name": "Tom",
+    "id": "tom",
+    "avatarUrl": "/riders/waluigi.jpg",
+    "teamName": "Dunkin Bells"
+  },
+  {
+    "name": "Luke",
+    "id": "luke",
+    "avatarUrl": "/riders/yoshi.jpg",
+    "teamName": "Winstons' Win*"
+  },
+  {
+    "name": "James",
+    "id": "james",
+    "avatarUrl": "/riders/link.jpg",
+    "teamName": "Wonderful world of pokemon"
+  },
+  {
+    "name": "Arron",
+    "id": "arron",
+    "avatarUrl": "/riders/donkey-kong.jpg",
+    "teamName": "Vikings of Valhalla"
+  },
+  {
+    "name": "Rachel",
+    "id": "rachel",
+    "avatarUrl": "/riders/rosalina.jpg",
+    "teamName": "???"
+  }
+]
