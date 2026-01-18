@@ -1,0 +1,263 @@
+/* Mario Kart Racing League - Bootstrap Theme */
+
+/* ============================================
+   COLOR PALETTE
+   ============================================ */
+:root {
+  /* Primary Racing Colors */
+  --mk-red: #E52521;           /* Mario Red - Primary */
+  --mk-blue: #0066CC;          /* Speed Boost Blue - Secondary */
+  --mk-yellow: #FFD700;        /* Star Power Yellow - Warning */
+  --mk-green: #4CAF50;         /* Luigi Green - Success */
+  --mk-purple: #8B31C7;        /* Waluigi Purple - Info */
+  --mk-orange: #FF6B00;        /* Track Orange - Danger variant */
+  
+  /* Track & UI Colors */
+  --mk-track-dark: #2C3E50;    /* Asphalt Dark */
+  --mk-track-light: #ECF0F1;   /* Track Boundary Light */
+  --mk-checkered: #000000;     /* Checkered Flag Black */
+  --mk-white: #FFFFFF;         /* Checkered Flag White */
+  
+  /* Rider Position Colors (for 8 riders) */
+  --rider-1: #FFD700;  /* Gold */
+  --rider-2: #C0C0C0;  /* Silver */
+  --rider-3: #CD7F32;  /* Bronze */
+  --rider-4: #4169E1;  /* Royal Blue */
+  --rider-5: #32CD32;  /* Lime Green */
+  --rider-6: #FF1493;  /* Deep Pink */
+  --rider-7: #FF8C00;  /* Dark Orange */
+  --rider-8: #9370DB;  /* Medium Purple */
+}
+
+/* ============================================
+   BOOTSTRAP VARIABLE OVERRIDES
+   ============================================ */
+:root {
+  /* Theme Colors */
+  --bs-primary: var(--mk-red);
+  --bs-primary-rgb: 229, 37, 33;
+  --bs-secondary: var(--mk-blue);
+  --bs-secondary-rgb: 0, 102, 204;
+  --bs-success: var(--mk-green);
+  --bs-success-rgb: 76, 175, 80;
+  --bs-info: var(--mk-purple);
+  --bs-info-rgb: 139, 49, 199;
+  --bs-warning: var(--mk-yellow);
+  --bs-warning-rgb: 255, 215, 0;
+  --bs-danger: var(--mk-orange);
+  --bs-danger-rgb: 255, 107, 0;
+  --bs-light: var(--mk-track-light);
+  --bs-light-rgb: 236, 240, 241;
+  --bs-dark: var(--mk-track-dark);
+  --bs-dark-rgb: 44, 62, 80;
+  
+  /* Body */
+  --bs-body-bg: #f8f9fa;
+  --bs-body-color: var(--mk-track-dark);
+  
+  /* Typography */
+  --bs-font-sans-serif: 'Fredoka', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  --bs-body-font-weight: 500;
+  --bs-headings-font-weight: 700;
+  
+  /* Border Radius - Rounded Mario Kart Style */
+  --bs-border-radius: 1rem;
+  --bs-border-radius-sm: 0.5rem;
+  --bs-border-radius-lg: 1.5rem;
+  --bs-border-radius-xl: 2rem;
+}
+.text-right { 
+    text-align: right !important; 
+}
+.w-100 {
+    width: 100% !important;
+}
+.text-sm {
+  font-size: 0.875rem !important  ;
+}
+.text-xs {
+  font-size: 0.7rem !important  ;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* ============================================
+   CUSTOM COMPONENT STYLES
+   ============================================ */
+
+/* Buttons - Racing Style */
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-width: 3px;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Cards - Race Track Inspired */
+.card {
+  border: 3px solid var(--mk-track-dark);
+  border-radius: var(--bs-border-radius-lg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(135deg, var(--mk-red) 0%, var(--mk-orange) 100%);
+  color: var(--mk-white);
+  font-weight: 700;
+  border-bottom: 3px solid var(--mk-track-dark);
+  padding: 1rem 1.5rem;
+}
+
+/* Badges - Position Indicators */
+.badge {
+  font-weight: 700;
+  padding: 0.5em 0.85em;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Tables - Leaderboard Style */
+.table {
+  border: 3px solid var(--mk-track-dark);
+}
+
+.table thead {
+  background: var(--mk-track-dark);
+  color: var(--mk-white);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(236, 240, 241, 0.5);
+}
+
+/* Rider Position Classes */
+.rider-position-1 { background-color: var(--rider-1) !important; color: var(--mk-track-dark); }
+.rider-position-2 { background-color: var(--rider-2) !important; color: var(--mk-track-dark); }
+.rider-position-3 { background-color: var(--rider-3) !important; color: var(--mk-white); }
+.rider-position-4 { background-color: var(--rider-4) !important; color: var(--mk-white); }
+.rider-position-5 { background-color: var(--rider-5) !important; color: var(--mk-track-dark); }
+.rider-position-6 { background-color: var(--rider-6) !important; color: var(--mk-white); }
+.rider-position-7 { background-color: var(--rider-7) !important; color: var(--mk-white); }
+.rider-position-8 { background-color: var(--rider-8) !important; color: var(--mk-white); }
+
+/* Progress Bars - Lap Progress */
+.progress {
+  height: 2rem;
+  border: 3px solid var(--mk-track-dark);
+  border-radius: var(--bs-border-radius);
+  background-color: var(--mk-track-light);
+}
+
+.progress-bar {
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--mk-blue) 0%, var(--mk-purple) 100%);
+}
+
+/* Alerts - Item Box Style */
+.alert {
+  border-width: 3px;
+  border-radius: var(--bs-border-radius-lg);
+  font-weight: 600;
+}
+
+/* Navbar - Race HUD Style */
+.navbar {
+  border-bottom: 4px solid var(--mk-yellow);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+/* Checkered Flag Pattern Background */
+.bg-checkered {
+  background-image: 
+    linear-gradient(45deg, var(--mk-checkered) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--mk-checkered) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--mk-checkered) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--mk-checkered) 75%);
+  background-size: 40px 40px;
+  background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+  background-color: var(--mk-white);
+}
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.text-center {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.hero-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, var(--mk-red) 0%, var(--mk-purple) 100%);
+    color: white;
+}
+/* Speed Boost Gradient */
+.bg-speed-boost {
+  background: linear-gradient(135deg, var(--mk-blue) 0%, var(--mk-purple) 50%, var(--mk-red) 100%);
+}
+
+/* Star Power Shimmer */
+.bg-star-power {
+  background: linear-gradient(135deg, var(--mk-yellow) 0%, var(--mk-orange) 50%, var(--mk-yellow) 100%);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+/* Text Colors for Riders */
+.text-rider-1 { color: var(--rider-1); }
+.text-rider-2 { color: var(--rider-2); }
+.text-rider-3 { color: var(--rider-3); }
+.text-rider-4 { color: var(--rider-4); }
+.text-rider-5 { color: var(--rider-5); }
+.text-rider-6 { color: var(--rider-6); }
+.text-rider-7 { color: var(--rider-7); }
+.text-rider-8 { color: var(--rider-8); }
+
+/* Racing Stripes Border */
+.border-racing {
+  border: 4px solid var(--mk-track-dark);
+  border-left: 8px solid var(--mk-red);
+  border-right: 8px solid var(--mk-red);
+}
+
+/* ============================================
+   RESPONSIVE FONT SIZING
+   ============================================ */
+@media (max-width: 768px) {
+  .display-1, .display-2 { font-size: 3rem; }
+  .display-3, .display-4 { font-size: 2rem; }
+}

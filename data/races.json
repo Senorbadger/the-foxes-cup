@@ -1,0 +1,98 @@
+[{
+    "date": null,
+    "track": "??",
+    "finalTrack": "??",
+    "status": "pending",
+    "id": "race3",
+    "round": 3,
+    "race1": { 
+        "riders": [
+        "luke",
+        "tom",
+        "michelle",
+        "sam"
+        ]
+      },
+    "race2": {
+      "riders": [
+        "rachel",
+        "arron",
+        "james",
+        "dawn"
+      ] 
+    },
+    "final": null
+  },
+  {
+  "date": "17th January 2026",
+    "track": "Sherbert Land",
+    "finalTrack": "Melody Motorway",
+    "status": "complete",
+    "id": "race2",
+    "round": 2,
+    "race1": { 
+        "riders": [
+          "michelle",
+          "luke",
+          "arron",
+          "rachel"
+        ]
+      },
+    "race2": {
+      "riders": [
+        "tom",
+        "sam",
+        "james",
+        "dawn"
+      ] 
+    },
+    "final": {
+      "riders": [
+        "luke",
+        "tom",
+        "michelle",
+        "sam",
+        "rachel",
+        "arron",
+        "james",
+        "dawn"
+      ]
+    }
+  },
+  {
+  "date": "25th December 2025",
+  "track": "Hyrule Circuit",
+  "id": "race1",
+  "round": 1,
+  "finalTrack": "Moo Moo Meadows",
+  "status": "complete",
+  "race1": { 
+      "riders": [
+        "luke",
+        "arron",
+        "dawn",
+        "james"
+      ]
+    },
+  "race2": {
+    "riders": [
+      "rachel",
+      "michelle",
+      "sam",
+      "tom"
+    ] 
+  },
+  "final": { 
+    "riders": [
+      "rachel",
+      "luke",
+      "michelle",
+      "arron",
+      "sam",
+      "james",
+      "dawn",
+      "tom"
+    ]
+  }
+}
+]
